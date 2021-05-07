@@ -5,6 +5,7 @@
 # Features
 **M**inecraft **S**erver **C**ontrol **S**cript (**MSCS**)
 is a server-management script for UNIX and Linux powered Minecraft servers.
+Customized by litrax.
 
 Features include:
 
