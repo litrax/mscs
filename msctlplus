@@ -26,12 +26,14 @@
 # ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 # ---------------------------------------------------------------------------
+# Additions Copyright (c) 2021-2026, Olaf Kühnreich <undead@web.de>
 
 
 # ---------------------------------------------------------------------------
-# Minecraft Server Control Script
+# Enhanced Minecraft Server Control Script Plus
 #
-# A powerful command-line control script for Linux-powered Minecraft servers.
+# An even more powerful command-line control script for
+# Linux-powered Minecraft servers.
 # ---------------------------------------------------------------------------
 
 # Get executable name
@@ -150,31 +152,31 @@ Actions:
     Run a detailed Query on the Minecraft world server.
 
   edit-mscs <world>
-    Edit the file mscs.properties of the Minecraft World server
+    Edit the file mscs.properties of the Minecraft World server.
 
   edit-server <world>
-    Edit the file server.properties of the Minecraft World server
+    Edit the file server.properties of the Minecraft World server.
 
   get-mscs-prop [<world>] <key>
-    Get a property from the file mscs.properties of the Minecraft World server
-    Get property of all worlds by default
+    Get a property from the file mscs.properties of the Minecraft World server.
+    Get property of all worlds by default.
 
   get-server-prop [<world>] <key>
-    Get a property from the file server.properties of the Minecraft World server
-    Get property of all worlds by default
+    Get a property from the file server.properties of the Minecraft World server.
+    Get property of all worlds by default.
 
   set-mscs-prop [<world>] <key> <value>
-    Set a property in the file mscs.properties of the Minecraft World server
-    Set value of property in all worlds by default
+    Set a property in the file mscs.properties of the Minecraft World server.
+    Set value of property in all worlds by default.
 
   set-server-prop [<world>] <key> <value>
-    Set a property in the file server.properties of the Minecraft World server
-    Set value of property in all worlds by default
+    Set a property in the file server.properties of the Minecraft World server.
+    Set value of property in all worlds by default.
 
-  sort-server-props <world>
-    Sort file server.properties of the Minecraft World server
-    This is for better comparability
-
+  sort-server-props [<world>]
+    Sort file server.properties of the Minecraft World server.
+    Sort all worlds server.properties files by default.
+    This is for better comparability.
 
 
 Options:
