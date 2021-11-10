@@ -26,6 +26,10 @@ and restart worlds.
 * Update the server and client software automatically.
 * Send commands to a world server from the command line.
 
+Using msctlplus:
+* Easily get and set detailed properties of every world.
+
+
 # Documentation
 
 Documentation has moved to [https://minecraftservercontrol.github.io/docs/mscs](https://minecraftservercontrol.github.io/docs/mscs).
